@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+	<run>
+     <include name="functional"/>
+     <include name="regression"/>
+     <include name="sanity"/>
+     
+	</run>
+</groups>
+    <classes>
+      <class name="Day44.LoginTests"/>
+      <class name="Day44.SignupTests"/>
+      <class name="Day44.PaymentTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
